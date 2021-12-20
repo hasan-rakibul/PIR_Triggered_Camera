@@ -1,0 +1,69 @@
+***Etcher Software*** //to create memory card partiiton
+Select IOS file
+Detect if SD card is detected
+Uncheck all from Settings
+FLASH
+->After Flashing....
+empty <ssh> file and another <wps supplicant> config file
+--wps supplicant file contains the ssid and password of WLAN
+copy the files to <boot> folder
+
+***HeadLess Setup:
+RealVNC soft to remotely control
+Download VNC connect for your PC config
+
+
+***LINUX basic commands:
+sudo
+sudo su --for root access
+ls (DIR for windows) 
+
+username: pi
+password: raspberry
+
+
+
+***LINUX***
+kernel communicate with hardware
+OS connect with kernel
+
+Linux Fole Hierarchy
+
+***BASH Commands::
+cd (~ = home directory)
+pwd = print current directory
+cd.. = moving up one level
+ls = List of files
+touch <NewFileName.format>
+cp <source> <destination> = copying file cp myfile.txt /tmp
+mp =moving file
+cp -r ==all copy
+nano <file> = editing file......nano myfile.txt
+echo 'hello world'> myfile.text ==append 'hello world' at myfile.txt
+cat <file> == viewing contents .cat myfile.txt
+mkdir <directoryName> = creating directory
+rm <fileName> == remove file
+rm -r directoryName =removing directory
+sudo== superuser priviliedge
+
+***Software setup:
+sudo apt install package_name
+sudo apt install ./<software_name>.deb (equivalently exe in windows)
+***Remove soft
+sudo apt-get autoremove software_name
+sudo apt-get clean
+
+Downloading files using wget:
+wget <file_link>
+
+Cloning source code using 'git'
+git clone...
+
+Piping multiple commands using '|' (Pipe operator)
+--> feed one's output to another
+cat myfile.txt | grep word (grep==searching)
+
+'&&' operator: sequentially execute
+
+tar == unzipping files
+**VNC enable 

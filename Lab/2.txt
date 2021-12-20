@@ -1,0 +1,20 @@
+sudo raspi-config
+enable SSH
+
+ifconfig
+
+I2C:communication protocol
+sda,sca,vcc,gnd -- 4 pin
+
+i2cdetect -l 1
+i2cdetect -y 1
+
+HTTTP Protocol:
+4 protocols generally
+
+1. get-->works at API end point--> http;//example.com/api/1
+key-value pair in json file
+Request LineL
+2. post
+3. put
+4. delete
